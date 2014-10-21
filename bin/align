@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var align = require('..');
+
+var args = process.argv.slice(2);
+
+align(args, function(err, output){
+  if (err) return console.error(err);
+  console.log(output);
+});

@@ -1,0 +1,27 @@
+{
+  "name": "align",
+  "version": "0.1.0",
+  "bin": {
+    "align": "bin/align"
+  },
+  "description": "Syncronize project files",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Andrew Vanasse <mail@mndvns.com>",
+  "license": "MIT",
+  "dependencies": {
+    "conjoin": "^0.1.0",
+    "is-data": "git+https://github.com/mndvns/is-data",
+    "batch": "^0.5.1",
+    "component-type": "^1.0.0"
+  },
+  "devDependencies": {
+    "should": "^4.1.0",
+    "mocha": "^1.21.5"
+  }
+}

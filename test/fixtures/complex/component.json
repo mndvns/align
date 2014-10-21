@@ -1,0 +1,8 @@
+{
+  "name": "foobar",
+  "keywords": [
+    "aaa",
+    "zzz"
+  ],
+  "main": "index.js"
+}

@@ -1,0 +1,2 @@
+NAME   = foobar
+STUFF ?= cool
